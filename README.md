@@ -45,3 +45,5 @@ BowlApp is a Kotlin Multiplatform app targeting Android and iOS built with Compo
 
 2. [Room supports KMP](https://developer.android.com/kotlin/multiplatform/room)
 
+3. [KMM Movies App built using KMM with native UI code and shared business logic] (https://github.com/Vendhan/KMMMoviesApp)
+
