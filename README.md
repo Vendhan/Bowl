@@ -14,6 +14,13 @@ BowlApp is a Kotlin Multiplatform app targeting Android and iOS built with Compo
 * `/iosApp` contains iOS applications. Even if you’re sharing your UI with Compose Multiplatform, 
   you need this entry point for your iOS app. This is also where you should add SwiftUI code for your project.
 
+
+## How to Build
+  1. Make sure Android Studio( install KMM and Compose Multiplatform plugins) and XCode are installed
+  2. Open project in Android Studio
+  3. Build both iOS and Android app from the Build Configuration of Studio itself.
+  4. iOS app can also be built in XCode, for that open "project.xcworkspace" folder inside "iosApp" in Xcode and build.
+
 ## Technologies Used
   1. Compose Multiplatform for sharing UI across Android and iOS (alpha)
   2. Room DB for persistence (in alpha, supporting KMP)
@@ -21,7 +28,7 @@ BowlApp is a Kotlin Multiplatform app targeting Android and iOS built with Compo
   4. Koin for DI
   5. KtorClient for networking
 
-# Screenshots
+## Screenshots
 
 ## Android
 
